@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DH Heroes</title>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+        <style>
+
+        </style>
+
+    </head>
+    <body>
+        <form action="/" method="GET">
+            <label for="username">Nombre del usuario</label>
+            <input required id="username" placeholder="Ingrese su nombre" type="text" name="username">
+            <label>color favorito</label>
+            <input type="color" name="color">
+            <label>Edad</label>
+            <input value="20" type="number" name="age">
+            <label>Foto de perfil</label>
+            <input type="file" name="profilePic" accept="image/png, image/jpeg">
+            <label>fecha de nacimiento</label>
+            <input type="date" name="birthDate">
+
+            <label>Banda de rock favorita</label>
+            <select required name="rockBand">
+                <option value="">...seleccione una opción</option>
+                <option value="ACDC">ACDC</option>
+                <option value="1">Metallica</option>
+                <option value="Queen">Queen</option>
+                <option value="The Beatles">The Beatles</option>
+                <option value="The Rolling Stones">The Rolling Stones</option>
+            </select>
+
+            <label>Pastafrola de </label>
+            <input type="radio" name="pastafrola" value="membrillo">membrillo
+            <input type="radio" name="pastafrola" value="batata">batata
+            <input type="radio" name="pastafrola" value="dulce de leche">dulce de leche
+
+            <label>Deportes favoritos</label>
+            <input type="checkbox" name="sports" value="futbol">futbol
+            <input type="checkbox" name="sports" value="basket">basket
+            <input type="checkbox" name="sports" value="tenis">tenis
+            <input type="checkbox" name="sports" value="rugby">rugby
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </body>
+</html>

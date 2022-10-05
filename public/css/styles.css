@@ -1,0 +1,102 @@
+body{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightgrey;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+main.index{
+    display: block;
+    width: 88.5%;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    color: gray;
+    padding-right: 20%;
+}
+main.index h1{
+    color: lightgray;
+}
+img{
+    width: 100%;
+}
+p.index{
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+div.container{
+    overflow: hidden;
+    padding-top:30px;
+    
+}
+div.imagen{
+    
+    width: 30%;
+    float: left;
+    
+}
+div.detail{
+    padding-left: 5%;
+    width: 65%;
+    float: left;
+    
+
+}
+main ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+p{
+    color: gray!important;
+}
+
+.contenedor-texto-rojo p{
+    color: red;
+}
+
+.contenedor-texto-rojo h2{
+    color: green;
+}
+
+#primer-elemento-lista{
+    color: blue;
+}
+
+.fondo{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(88, 183, 37);
+    background-color: #58b725;
+}
+
+h1{
+    visibility: hidden;
+}
+
+#contenedor{
+    display: flex;
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.hijo{
+    background-color: red;
+    width: 100px;
+    border : 1px solid black;
+    box-sizing: border-box;
+    height: 100px;
+    display: flex;
+}
+
+@media screen and (min-width: 600px){
+    h1{
+        visibility: visible;
+    }
+}
